@@ -5,3 +5,7 @@ This is an extension for the [Contentful](https://www.contentful.com/) authoring
 It adds a new widget for "list of plain text entries" fields (that is, fields of type `Symbols`).
 
 This field allows adding, editing, reordering, and deleting entries.
+
+It looks like this:
+
+![screenshot](https://i.imgur.com/48c1OhI.png)
