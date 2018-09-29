@@ -2,7 +2,6 @@ import React from 'react';
 import uuidv1 from 'uuid/v1';
 import {SortableContainer, SortableElement, SortableHandle, arrayMove} from 'react-sortable-hoc';
 
-require('!style-loader!css-loader!contentful-ui-extensions-sdk/dist/cf-extension.css'); // eslint-disable-line import/no-webpack-loader-syntax
 require('./App.css');
 
 export default class App extends React.Component {

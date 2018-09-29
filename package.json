@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "contentful-ui-extensions-sdk": "^3.4.1",
     "react": "^16.5.2",
     "react-app-rewire-inline-source": "^2.0.0",
     "react-app-rewired": "^1.6.2",
