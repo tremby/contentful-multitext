@@ -1,0 +1,6 @@
+{
+	"id": "multitext",
+	"name": "Multitext",
+	"srcdoc": "./build/index.html",
+	"fieldTypes": ["Symbols"]
+}

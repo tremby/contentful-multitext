@@ -1,0 +1,43 @@
+.item-list {
+	list-style-type: none;
+	padding: 0;
+}
+
+.item-list.dragging {
+	cursor: grabbing;
+}
+
+.item {
+	display: flex;
+	width: 100%;
+	align-items: center;
+	position: relative;
+	margin-top: 0.25rem;
+	margin-bottom: 0.25rem;
+}
+
+.item input {
+	flex: 1;
+}
+
+.delete-button {
+	padding: 0.125rem 0.25rem;
+	margin-left: 0.5rem;
+}
+
+.drag-handle {
+	width: 1rem;
+	height: 1rem;
+	background-image: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50"><path d="M 0 7.5 L 0 12.5 L 50 12.5 L 50 7.5 L 0 7.5 z M 0 22.5 L 0 27.5 L 50 27.5 L 50 22.5 L 0 22.5 z M 0 37.5 L 0 42.5 L 50 42.5 L 50 37.5 L 0 37.5 z" color="black"></path></svg>');
+	background-size: contain;
+	background-repeat: no-repeat;
+	opacity: 0.25;
+	cursor: grab;
+	margin-right: 0.5rem;
+	user-select: none;
+}
+
+
+.dragging .drag-handle {
+	cursor: grabbing;
+}
