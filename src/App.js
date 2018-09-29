@@ -12,8 +12,9 @@ export default class App extends React.Component {
 			extension,
 		} = props;
 
+		const existingValue = extension.field.getValue();
 		this.state = {
-			values: extension.field.getValue().map((value) => ({id: uuidv1(), value})),
+			values: existingValue == null ? [] : existingValue.map((value) => ({id: uuidv1(), value})),
 			focus: false,
 			dragging: false,
 		};
