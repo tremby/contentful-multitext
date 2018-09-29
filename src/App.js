@@ -148,7 +148,7 @@ const Handle = SortableHandle(() => (
 const SortableItem = SortableElement(({id, value, onChange, onDelete, autoFocus}) => (
 	<li className="item" data-id={id}>
 		<Handle />
-		<input value={value} onChange={onChange} autoFocus={autoFocus} />
+		<input className="cf-form-input" value={value} onChange={onChange} autoFocus={autoFocus} />
 		<button type="button" className="cf-btn-secondary delete-button" title="Delete" onClick={onDelete}>
 			&times;
 		</button>

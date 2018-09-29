@@ -7,7 +7,7 @@ This widget allows adding, editing, reordering, and deleting entries.
 
 It looks like this:
 
-![screenshot](https://i.imgur.com/48c1OhI.png)
+![screenshot](https://i.imgur.com/23kQz7C.png)
 
 It's built with React and makes use of [React Sortable](https://github.com/clauderic/react-sortable-hoc).
 
