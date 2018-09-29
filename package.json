@@ -12,7 +12,7 @@
     "uuid": "^3.3.2"
   },
   "scripts": {
-    "start": "react-app-rewired start",
+    "start": "HTTPS=true react-app-rewired start",
     "build": "react-app-rewired build"
   }
 }
