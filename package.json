@@ -5,13 +5,15 @@
   "dependencies": {
     "contentful-ui-extensions-sdk": "^3.4.1",
     "react": "^16.5.2",
+    "react-app-rewire-inline-source": "^2.0.0",
+    "react-app-rewired": "^1.6.2",
     "react-dom": "^16.5.2",
     "react-scripts": "1.1.5",
     "react-sortable-hoc": "^0.8.3",
     "uuid": "^3.3.2"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build"
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build"
   }
 }
