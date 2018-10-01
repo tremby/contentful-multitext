@@ -20,12 +20,12 @@ In Contentful, navigate to Settings -> Extensions and click on Add Extension -> 
 In the next dialog box, paste in this url: 
 
 ```
-https://github.com/cachrisman/contentful-multitext/blob/master/extension.json
+https://github.com/tremby/contentful-multitext/blob/master/extension.json
 ``` 
 
 and click install. 
 
-<img src="https://i.imgur.com/zPqp36B.png" width="534">
+<img src="https://i.imgur.com/ZXW3yWl.png" width="534">
 
 Viola! Click close on the next screen and go to Content Types and change the appearance of a short text list field to the new Multitext extension.
 
