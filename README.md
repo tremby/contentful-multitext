@@ -13,12 +13,21 @@ It's built with React and makes use of [React Sortable](https://github.com/claud
 
 ## Installation
 
-You'll need to build the project by installing dependencies then running `npm run build`.
-The only necessary part of the output (which is put in the `build` directory) is the `index.html` file --
-scripts and styles are inlined into this, as Contentful requires.
+In Contentful, navigate to Settings -> Extensions and click on Add Extension -> Install from Github
 
-The best way to install is with the Contentful CLI;
-[see their documentation](https://www.contentful.com/developers/docs/extensibility/ui-extensions/managing-a-ui-extension/).
+<img src="https://i.imgur.com/itYB3Ly.png" width="219">
+
+In the next dialog box, paste in this url: 
+
+```
+https://github.com/tremby/contentful-multitext/blob/master/extension.json
+``` 
+
+and click install. 
+
+<img src="https://i.imgur.com/ZXW3yWl.png" width="534">
+
+Viola! Click close on the next screen and go to Content Types and change the appearance of a short text list field to the new Multitext extension.
 
 ## Development
 
