@@ -33,10 +33,12 @@ This means all you have to do is point Contentful to this to this the `extension
 
        contentful extension create --space-id $SPACE_ID --src https://localhost:3000
 
-   ([see the docs](https://www.contentful.com/developers/docs/extensibility/ui-extensions/managing-a-ui-extension/#4-testing-from-a-local-development-environment)):
-   if you've previously installed this way you'll need to use the `update` command instead:
+   If you've previously installed this way you'll need to use the `update` command instead:
 
        contentful extension update --space-id $SPACE_ID --src https://localhost:3000 --force
+
+   [See the docs](https://www.contentful.com/developers/docs/extensibility/ui-extensions/managing-a-ui-extension/#4-testing-from-a-local-development-environment)
+   for more details.
 4. Go look in Contentful at an entry which uses this extension
 
 ## Publication
