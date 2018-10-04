@@ -1,6 +1,8 @@
 {
 	"id": "multitext",
 	"name": "Multitext",
-	"srcdoc": "./build/index.html",
-	"fieldTypes": ["Symbols"]
+	"src": "https://unpkg.com/contentful-multitext@1.0.0",
+	"fieldTypes": [
+		"Symbols"
+	]
 }
