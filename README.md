@@ -16,7 +16,7 @@ It's built with React and makes use of [React Sortable](https://github.com/claud
 The [`extension.json`](/extension.json) file in the repository is set up to point to [unpkg](https://unpkg.com/),
 which acts as a CDN for the latest version of this extension published to NPM.
 
-This means all you have to do is point Contentful to this to this the `extension.json` file:
+This means all you have to do is point Contentful to this file:
 
 1. Space settings
 2. "Add extension" button
