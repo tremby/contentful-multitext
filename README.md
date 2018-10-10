@@ -21,7 +21,7 @@ This means all you have to do is point Contentful to this file:
 1. Space settings
 2. "Add extension" button
 3. Install from Github
-4. `tremby/contentful-multitext/blob/master/extension.json`
+4. `https://github.com/tremby/contentful-multitext/blob/master/extension.json`
 5. "Install" button
 
 ## Development
