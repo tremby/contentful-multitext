@@ -4,12 +4,12 @@
   "main": "build/index.html",
   "homepage": "./",
   "dependencies": {
-    "react": "^16.9.0",
-    "react-app-polyfill": "^1.0.3",
-    "react-dom": "^16.9.0",
-    "react-scripts": "^3.1.2",
-    "react-sortable-hoc": "^1.10.1",
-    "uuid": "^3.3.3"
+    "react": "^16.13.1",
+    "react-app-polyfill": "^1.0.6",
+    "react-dom": "^16.13.1",
+    "react-scripts": "^3.4.3",
+    "react-sortable-hoc": "^1.11.0",
+    "uuid": "^3.4.0"
   },
   "scripts": {
     "start": "HTTPS=true react-scripts start",
