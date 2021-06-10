@@ -1,7 +1,7 @@
 {
 	"id": "multitext",
 	"name": "Multitext",
-	"src": "https://unpkg.com/contentful-multitext@1.0.11",
+	"src": "https://unpkg.com/contentful-multitext@1.0.12",
 	"fieldTypes": [
 		"Symbols"
 	]
